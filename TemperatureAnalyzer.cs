@@ -17,6 +17,7 @@ namespace TemperatureAnalyzer
             // Zwróć wartość najwyższej temperatury.
         }
 
+
         // Znajduje najniższą temperaturę w tablicy temperatur
         public static int FindLowestTemperature(int[] temperatures)
         {
