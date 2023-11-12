@@ -4,7 +4,15 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+
+            TemperatureAnalyzer temp = new TemperatureAnalyzer();
+
+            int[] temperatures = new int[5] { 1, 2, 3, 4, 5 };
+
+            Console.WriteLine(temp.FindHighestTemperatureFind(temperatures));
+        
+
+
         }
     }
 }

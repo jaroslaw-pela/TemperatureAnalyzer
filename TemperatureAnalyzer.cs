@@ -9,12 +9,16 @@ namespace TemperatureAnalyzer
     public class TemperatureAnalyzer
     {
 
+        int[] temperatures = new int[5] {1, 2, 3, 4, 5};  
+
+
         // Znajduje najwyższą temperaturę w tablicy temperatur
-        public static int FindHighestTemperature(int[] temperatures)
+        public int FindHighestTemperature(int[] temperatures)
         {
             // TODO: Uzupełnij implementację, znajdując najwyższą temperaturę
             // wśród wszystkich temperatur w tablicy.
             // Zwróć wartość najwyższej temperatury.
+            return temperatures.Max();
         }
 
 
@@ -24,6 +28,7 @@ namespace TemperatureAnalyzer
             // TODO: Uzupełnij implementację, znajdując najniższą temperaturę
             // wśród wszystkich temperatur w tablicy.
             // Zwróć wartość najniższej temperatury.
+            return temperatures.Min();
         }
 
     }
