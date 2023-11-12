@@ -7,10 +7,9 @@
 
             TemperatureAnalyzer temp = new TemperatureAnalyzer();
 
-            int[] temperatures = new int[5] { 1, 2, 3, 4, 5 };
+            Console.WriteLine(temp.FindHighestTemperature(temp.temperatures));
 
-            Console.WriteLine(temp.FindHighestTemperatureFind(temperatures));
-        
+            Console.WriteLine(temp.FindLowestTemperature(temp.temperatures));
 
 
         }

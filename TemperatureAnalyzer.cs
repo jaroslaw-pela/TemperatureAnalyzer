@@ -9,7 +9,7 @@ namespace TemperatureAnalyzer
     public class TemperatureAnalyzer
     {
 
-        int[] temperatures = new int[5] {1, 2, 3, 4, 5};  
+        public int[] temperatures = new int[5] {1, -2, 3, 4, 15};  
 
 
         // Znajduje najwyższą temperaturę w tablicy temperatur
@@ -23,7 +23,8 @@ namespace TemperatureAnalyzer
 
 
         // Znajduje najniższą temperaturę w tablicy temperatur
-        public static int FindLowestTemperature(int[] temperatures)
+        //public static int FindLowestTemperature(int[] temperatures)
+        public int FindLowestTemperature(int[] temperatures)
         {
             // TODO: Uzupełnij implementację, znajdując najniższą temperaturę
             // wśród wszystkich temperatur w tablicy.
